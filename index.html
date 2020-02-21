@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trivia</title>
+</head>
+<body>
+    <h1>Trivia</h1>
+    <div class='main-grid'>
+        <div id='sub-head'>
+            <p>To play Trivia, choose Category, Complexity and select Start button</p>
+            <div id='selections'>
+                Category: <select name="category" id="category" style="height:30px"></select> <br> <br>
+                Complexity: <select name="complexity" id="complexity" style="height:30px">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select> <br>
+                <input type="button" value="Start" id='startStop' style="width:70px">
+                
+            </div>
+        </div>
+
+        <div id='question'>
+                <div id="q"></div>
+                <div id="answerCont">
+                     <ul id='answers' ></ul>
+                </div>
+                <div id="next"></div>
+                <div id="next2"></div>
+        </div>
+        <div id='footer2'> 
+            <p id='msg'></p>
+            
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

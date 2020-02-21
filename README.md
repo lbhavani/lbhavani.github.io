@@ -7,3 +7,11 @@ I wanted to create a game to re-enforce the knowledge I gained over past 6 weeks
 Users can either proceed to play with default catergory of 'General Knowledge' or select some other category of their interest and difficulty level 
 
 ---
+## Technologies Used:
+- **Command Line**: used for interacting with the computer, navigating the filesystem.
+- **Visual Studio Code**: used for coding with Html, CSS and JavaScript
+- **Source Control**: used for interaction, management and upload code to Git repository
+- **Google Chrome Web Browser**: used for launching the website
+- **Google Chrome Developer Tools**: used to debug and solve problems in the code
+
+---
